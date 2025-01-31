@@ -2,100 +2,133 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      <main>
+        <section>
+          <div className="carousel w-full">
+            <div id="item1" className="carousel-item w-full">
+              <img
+                src="https://i.ibb.co.com/BHkxrjc8/dp1.jpg"
+                className="w-full min-h-full" />
+            </div>
+            <div id="item2" className="carousel-item w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                className="w-full" />
+            </div>
+            <div id="item3" className="carousel-item w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                className="w-full" />
+            </div>
+            <div id="item4" className="carousel-item w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                className="w-full" />
+            </div>
+          </div>
+          <div className="flex w-full justify-center gap-2 py-2">
+            <a href="#item1" className="btn btn-xs">1</a>
+            <a href="#item2" className="btn btn-xs">2</a>
+            <a href="#item3" className="btn btn-xs">3</a>
+            <a href="#item4" className="btn btn-xs">4</a>
+          </div>
+        </section>
+        <section className="my-4">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold">Contact Us</h2>
+            <p>Doctor treatment involves diagnosing, managing, and curing illnesses through medical expertise, examinations, and prescribed interventions.y</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+            <div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://i.ibb.co.com/6dNMZ79/vg1.jpg"
+                  alt="Shoes"
+                  className="rounded-xl" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div><div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://i.ibb.co.com/C3sN6tvp/vg2.jpg"
+                  alt="Shoes"
+                  className="rounded-xl" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div><div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://i.ibb.co.com/6dNMZ79/vg1.jpg"
+                  alt="Shoes"
+                  className="rounded-xl h-50" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div><div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://i.ibb.co.com/bgNbjBpt/d1.jpg"
+                  alt="Shoes"
+                  className="rounded-xl" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div><div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://i.ibb.co.com/3mLCSnhR/d2.jpg"
+                  alt="Shoes"
+                  className="rounded-xl" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div><div className="card bg-base-100 w-96 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                  className="rounded-xl" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
