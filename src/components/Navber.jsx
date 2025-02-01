@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navber = () => {
@@ -22,20 +23,25 @@ const Navber = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Contact</a></li>
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-1 shadow">
+                            <li><Link href={'/'}>Home</Link></li>
+                            <li><Link href={'/blogs'}>Blogs</Link></li>
+                            <li><Link href={'/about'}>About</Link></li>
+                            <li><Link href={'/contact'}>Contact</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Doctor</a>
+                    <a className="btn btn-ghost text-2xl">Doctor</a>
                 </div>
                 <div className="navbar-center justify-center items-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Contact</a></li>
+                    <ul className="menu menu-horizontal px-1 text-xl">
+                        <li><Link href={'/'}>Home</Link></li>
+                        <li><Link href={'/blogs'}>Blogs</Link></li>
+                        <li><Link href={'/about'}>About</Link></li>
+                        <li><Link href={'/contact'}>Contact</Link></li>
+                        
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end ">
                     <a className="btn">Log In</a>
                 </div>
             </div>
