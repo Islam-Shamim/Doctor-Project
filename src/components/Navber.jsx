@@ -25,7 +25,7 @@ const Navber = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-1 shadow">
                             <li><Link href={'/'}>Home</Link></li>
-                            <li><Link href={'/blogs'}>Blogs</Link></li>
+                            <li><Link href={'/blogs'}>Packages</Link></li>
                             <li><Link href={'/about'}>About</Link></li>
                             <li><Link href={'/contact'}>Contact</Link></li>
                         </ul>
@@ -35,9 +35,10 @@ const Navber = () => {
                 <div className="navbar-center justify-center items-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-xl">
                         <li><Link href={'/'}>Home</Link></li>
-                        <li><Link href={'/blogs'}>Blogs</Link></li>
+                        <li><Link href={'/blogs'}>Packages</Link></li>
                         <li><Link href={'/about'}>About</Link></li>
                         <li><Link href={'/contact'}>Contact</Link></li>
+                        <li><Link href={'/form'}>Registration</Link></li>
                         
                     </ul>
                 </div>

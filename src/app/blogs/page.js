@@ -8,8 +8,8 @@ export default function Blogs() {
     return (
         <div className='my-8'>
             <section className='text-center space-y-2'>
-                <h2 className='text-2xl font-bold text-orange-600'>Blogs</h2>
-                <h4 className='text-xl'>Here, you get every update opinions from our specialist.</h4>
+                <h2 className='text-2xl font-bold text-orange-600'>Packages</h2>
+                <h4 className='text-xl'>Here, you can see our popular packages.</h4>
                 <hr className='mx-4 font-bold' />
             </section>
             <section className="my-2">
@@ -22,7 +22,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ export default function Blogs() {
                                 className="rounded-xl h-[250px]" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <h2 className="card-title">Shoes!</h2>
+                            <h2 className="card-title">Title</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                         </div>
                     </div>
