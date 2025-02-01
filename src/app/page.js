@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <main>
         <CarouselPage></CarouselPage>
-        <Blogs></Blogs>
         <AboutPage></AboutPage>
+        <Blogs></Blogs>
       </main>
     </div>
   );

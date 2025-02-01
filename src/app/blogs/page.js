@@ -8,8 +8,8 @@ export default function Blogs() {
     return (
         <div className='my-8'>
             <section className='text-center space-y-2'>
-                <h2 className='text-4xl font-semibold mt-4 text-red-400'>Blogs</h2>
-                <h4 className='text-xl'>Here, you can get every update about our specialist.</h4>
+                <h2 className='text-2xl font-bold text-orange-600'>Blogs</h2>
+                <h4 className='text-xl'>Here, you get every update opinions from our specialist.</h4>
                 <hr className='mx-4 font-bold' />
             </section>
             <section className="my-2">
