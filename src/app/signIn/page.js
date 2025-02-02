@@ -4,13 +4,13 @@ import login from "./login.svg"
 import Link from 'next/link'
 
 export default function signIn() {
-    return (
-        <div className="flex justify-center items-center my-8">
-      <div className="w-1/2 ml-12">
-        <Image src={login} alt="" />
+  return (
+    <div className="md:flex justify-center items-center my-8">
+      <div className="w-96 md:w-1/2 ml-12">
+        <Image src={login} alt="login" className='text-center my-2'/>
       </div>
-      <div className="w-1/2">
-        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div className="w-full md:w-1/2 my-4">
+        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
           <h1 className="text-5xl font-bold mx-auto mt-4">Sign In now!</h1>
           <form className="card-body">
             <div className="form-control">
@@ -43,10 +43,10 @@ export default function signIn() {
           </form>
           <p className="ml-8 pb-4 text-blue-600">If you are new. Please{" "}
             <Link href={'#'} className="text-red-600">
-            register
+              register
             </Link>.</p>
         </div>
       </div>
     </div>
-    )
+  )
 }
