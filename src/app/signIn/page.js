@@ -9,8 +9,8 @@ export default function signIn() {
       <div className="w-96 md:w-1/2 ml-12">
         <Image src={login} alt="login" className='text-center my-2'/>
       </div>
-      <div className="w-full md:w-1/2 my-4">
-        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
+      <div className="w-full md:w-1/2 mt-4">
+        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto md:mx-0">
           <h1 className="text-5xl font-bold mx-auto mt-4">Sign In now!</h1>
           <form className="card-body">
             <div className="form-control">
