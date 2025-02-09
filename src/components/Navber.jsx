@@ -39,6 +39,7 @@ const Navber = () => {
                         <li><Link href={'/about'}>About</Link></li>
                         <li><Link href={'/contact'}>Contact</Link></li>
                         <li><Link href={'/form'}>Registration</Link></li>
+                        <li><Link href={'/signup'}>SignUp</Link></li>
                         
                     </ul>
                 </div>
