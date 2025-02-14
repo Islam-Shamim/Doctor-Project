@@ -33,9 +33,10 @@ const Navber = () => {
                     <a className="btn btn-ghost text-2xl">Doctor</a>
                 </div>
                 <div className="navbar-center justify-center items-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-xl">
+                    <ul className="menu menu-horizontal px-1 text-xl space-x-2">
                         <li><Link href={'/'}>Home</Link></li>
                         <li><Link href={'/blogs'}>Packages</Link></li>
+                        <li><Link href={'/posts'}>Posts</Link></li>
                         <li><Link href={'/about'}>About</Link></li>
                         <li><Link href={'/contact'}>Contact</Link></li>
                         <li><Link href={'/form'}>Registration</Link></li>
